@@ -3,5 +3,4 @@ a = list()
 while x != '':
     a.append(x)
     x = input('Введите что-нибудь ещё:')
-else:
-    print(a)   
+print(a)   

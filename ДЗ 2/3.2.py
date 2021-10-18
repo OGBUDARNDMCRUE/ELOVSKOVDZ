@@ -1,5 +1,3 @@
-n = int(input('Введите число:'))
-for z in range(n):
-    print("*" * (z + 1))
-for z in range(n - 1, 0, -1):
-    print("*" * z)
+x = int(input('Введите число:'))
+for y in range(x+1):
+    print('*' * y) 

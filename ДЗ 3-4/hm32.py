@@ -10,5 +10,5 @@ def seasons(x):
     else:
         return 'Такого месяца нет!'
 
-x = int(input("Введите месяц:"))
+x = int(input('Введите месяц:'))
 print(seasons(x))

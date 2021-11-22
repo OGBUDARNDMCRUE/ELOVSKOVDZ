@@ -4,6 +4,6 @@ def func():
     while x != '':
         y.append(x)
         x = input('Введите ещё что - нибудь:')
-    return y 
+    return y
 
 print(func())

@@ -1,5 +1,5 @@
 def seasons(x):
-    if x == 1 or x == 2 or x == 12:
+    if x in [1, 2, 12]:
         return 'Это зима!'
     elif 3 <= x <= 5:
         return 'Это весна!'

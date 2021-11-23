@@ -6,4 +6,5 @@ def func():
         x = input('Введите ещё что - нибудь:')
     return y
 
+
 print(func())

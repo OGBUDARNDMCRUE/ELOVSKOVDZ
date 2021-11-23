@@ -12,4 +12,10 @@ while f != '':
     f = input()
     b.append(f)
 b.pop()
+
+
 print(func1(b))
+
+
+assert func1([1, 2, 3, 4]) == True
+assert func1([1, 2, 3, 3]) == False

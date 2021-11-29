@@ -1,5 +1,7 @@
 l = [1, 9, 2, 8, 3, 7, 4, 6, 5]
 l = sorted(l)
+
+
 def search(l, x):
     lower = 0
     upper = len(l) - 1
@@ -16,7 +18,7 @@ def search(l, x):
 
 x = int(input("Что ищем: "))
 print(search(l, x))
-assert search([], 4) == None
+assert search([], 4) is None
 assert search([1, 9, 2, 8, 3, 7, 4, 6, 5], 1) == 0
-assert search([1, 9, 2, 8, 3, 7, 4, 6, 5], 0) == None
+assert search([1, 9, 2, 8, 3, 7, 4, 6, 5], 0) is None
 assert search([1, 9, 2, 8, 3, 7, 4, 6, 5], 4) == 4

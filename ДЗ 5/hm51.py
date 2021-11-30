@@ -21,5 +21,5 @@ print(search(l, x))
 assert search([1, 2, 3, 4, 5, 6, 7], 5) == 4
 assert search([7, 11, 15, 19, 22, 33, 45], 7) == 0
 assert search([], 2) is None
-assert search([5, 5, 10, 15], 5) == 0
+assert search([1, 2, 3, 4, 4, 4, 5, 6, 7], 4) == 3
 assert search([1, 2, 3, 4, 5, 6], 10) is None
